@@ -1,0 +1,89 @@
+[
+  {
+    "ref": "6ec353f1-336e-4811-9986-cf53254b2183",
+    "keyword": "8fc1d1dce80addfd64ba4adf7e6872cc",
+    "answer": "Jinz",
+    "options": {},
+    "from": "5215583049909",
+    "refSerialize": "486a1fa9079b98d4ee2fc059f29c8b6a"
+  },
+  {
+    "ref": "ans_08f7e30f-07dd-4ab5-8396-1d56f7a2e1b6",
+    "keyword": "key_43571144-57a4-4835-9cca-64799981281e",
+    "answer": "Hola!",
+    "options": {
+      "buttons": [],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "d98391833b80d668bb99e7a43061357d",
+    "from": "5215583049909"
+  },
+  {
+    "ref": "ans_539e67e4-c244-402f-af54-f7023c29fbcf",
+    "keyword": "ans_08f7e30f-07dd-4ab5-8396-1d56f7a2e1b6",
+    "answer": "Te mando un ejemplo:",
+    "options": {
+      "media": "/Users/fldsmdfr/Documents/GitHub/talachadigital-bot/assets/dog.png",
+      "buttons": [],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "4e8e7c0b34e92cbd078657c3fe1846f7",
+    "from": "5215583049909"
+  },
+  {
+    "ref": "ans_c0a2eb60-784a-458f-9b6a-e2d820d0d934",
+    "keyword": "ans_539e67e4-c244-402f-af54-f7023c29fbcf",
+    "answer": "__capture_only_intended__",
+    "options": {
+      "media": "/Users/fldsmdfr/Documents/GitHub/talachadigital-bot/assets/dog.png",
+      "buttons": [],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "12b288ccb02409faab68399f58210f89",
+    "from": "5215583049909"
+  },
+  {
+    "ref": "ans_044805ae-ddc0-4cd5-a0af-d7893e69ab0a",
+    "keyword": "ans_c0a2eb60-784a-458f-9b6a-e2d820d0d934",
+    "answer": "Te mando un ejemplo:",
+    "options": {
+      "media": "/Users/fldsmdfr/Documents/GitHub/talachadigital-bot/assets/persianas.mp4",
+      "buttons": [],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "cba601c26a9e92fea4e13b910b2d031a",
+    "from": "5215583049909"
+  },
+  {
+    "ref": "ans_a79d2d8c-9cf9-462e-8c1b-21f655674c08",
+    "keyword": "ans_044805ae-ddc0-4cd5-a0af-d7893e69ab0a",
+    "answer": "__capture_only_intended__",
+    "options": {
+      "media": "/Users/fldsmdfr/Documents/GitHub/talachadigital-bot/assets/persianas.mp4",
+      "buttons": [],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "69e41fcc673736c0a8b3ea8a27138efa",
+    "from": "5215583049909"
+  }
+]
