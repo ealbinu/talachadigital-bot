@@ -20,7 +20,8 @@ const discordFlow = addKeyword('doc').addAnswer(
 )
 
 const welcomeFlow = addKeyword(['hi', 'hello', 'hola'])
-    .addAnswer(`Holita!`)
+    .addAnswer(`Holita, bienvenido a Talacha Digital!`)
+    /*
     .addAnswer(
         [
             'I share with you the following links of interest about the project',
@@ -34,7 +35,7 @@ const welcomeFlow = addKeyword(['hi', 'hello', 'hola'])
             return
         },
         [discordFlow]
-    )
+    )*/
 
 
     const registerFlow = addKeyword(utils.setEvent('REGISTER_FLOW'))
