@@ -19,7 +19,7 @@ const discordFlow = addKeyword('doc').addAnswer(
     }
 )
 
-const welcomeFlow = addKeyword(['hi', 'hello', 'hola'])
+const welcomeFlow = addKeyword(['hello'])
     .addAnswer(`Holita, bienvenido a Talacha Digital!`)
     /*
     .addAnswer(
