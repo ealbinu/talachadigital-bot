@@ -1,10 +1,10 @@
 import { join } from 'path'
-import { createBot, createProvider, createFlow, addKeyword, utils, addAnswer } from '@builderbot/bot'
+import { createBot, createProvider, createFlow, addKeyword, utils } from '@builderbot/bot'
 import { JsonFileDB as Database } from '@builderbot/database-json'
 import { BaileysProvider as Provider } from '@builderbot/provider-baileys'
 
 const PORT = process.env.PORT ?? 3008
-
+/*
 const discordFlow = addKeyword('doc').addAnswer(
     ['You can see the documentation here', '📄 https://builderbot.app/docs \n', 'Do you want to continue? *yes*'].join(
         '\n'
@@ -18,9 +18,23 @@ const discordFlow = addKeyword('doc').addAnswer(
         return
     }
 )
-
-const welcomeFlow = addKeyword(['hello'])
-    .addAnswer(`Holita, bienvenido a Talacha Digital!`)
+*/
+const welcomeFlow = addKeyword(['woof'])
+    .addAnswer(
+        [
+            '¡Hola!',
+            '*Creamos canciones para tu negocio, evento, ocasión o día especial.*',
+            '🎸 🎶 🎹 🎵 🎤 🎻 👨‍🎤 🪇 🪗 🤘',
+            'Te entregaremos *3 canciones* en .mp3 y en video (con tus imagenes).',
+            'Tiene un costo de *$600 mxn*',
+            'Nos toma *2 días* y puedes pagar a la entrega.',
+            'Podrás elegir *género* o *estilo musical* y *lo que quieras que canten*.',
+        ].join('\n\n'),
+    )
+    .addAnswer('Te compartirmos algunos ejemplos:')
+    .addAnswer('The Dogfather', {media: join(process.cwd(), 'assets', 'talachadigital-dog.mp4')})
+    .addAnswer('Ineuro Educación', {media: join(process.cwd(), 'assets', 'talachadigital-neuro.mp4')})
+    .addAnswer('+Información y +ejemplos : https://talachadigital.com/jingle')
     /*
     .addAnswer(
         [

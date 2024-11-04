@@ -1,16 +1,16 @@
 [
   {
-    "ref": "6ec353f1-336e-4811-9986-cf53254b2183",
-    "keyword": "8fc1d1dce80addfd64ba4adf7e6872cc",
-    "answer": "Jinz",
+    "ref": "9ee02def-d893-48d4-9fba-59b42c0b2d0f",
+    "keyword": "2b269dd57c5d36f6b8c42be7314161bf",
+    "answer": "Woof",
     "options": {},
-    "from": "5215583049909",
-    "refSerialize": "486a1fa9079b98d4ee2fc059f29c8b6a"
+    "from": "5215649648744",
+    "refSerialize": "dbeebd5effeca9a1e9ea5105ae8b89a0"
   },
   {
-    "ref": "ans_08f7e30f-07dd-4ab5-8396-1d56f7a2e1b6",
-    "keyword": "key_43571144-57a4-4835-9cca-64799981281e",
-    "answer": "Hola!",
+    "ref": "ans_8ee24f0b-2856-49db-9f6a-6e35cf0dfb6c",
+    "keyword": "key_87a4c541-bac6-4e3b-ae80-5fa784cc195d",
+    "answer": "¡Hola!\n\n💫 Creamos canciones para tu negocio, evento, ocasión o día especial.\n\nTe entregaremos *3 canciones* en 🎵.mp3 y en 🎥video (con tus imagenes).\n\nNos toma *2 días* y puedes pagar a la entrega.\n\nPodrás elegir *género* o *estilo musical* y *lo que quieras que canten*.",
     "options": {
       "buttons": [],
       "capture": false,
@@ -19,15 +19,14 @@
       "keyword": {},
       "callback": false
     },
-    "refSerialize": "d98391833b80d668bb99e7a43061357d",
-    "from": "5215583049909"
+    "refSerialize": "f1ae2fcf89e6f6c547e6b3625e8ec4be",
+    "from": "5215649648744"
   },
   {
-    "ref": "ans_539e67e4-c244-402f-af54-f7023c29fbcf",
-    "keyword": "ans_08f7e30f-07dd-4ab5-8396-1d56f7a2e1b6",
-    "answer": "Te mando un ejemplo:",
+    "ref": "ans_c803c1d9-3615-47f1-a643-9cab603915db",
+    "keyword": "ans_8ee24f0b-2856-49db-9f6a-6e35cf0dfb6c",
+    "answer": "Te compartirmos algunos ejemplos:",
     "options": {
-      "media": "/Users/fldsmdfr/Documents/GitHub/talachadigital-bot/assets/dog.png",
       "buttons": [],
       "capture": false,
       "delay": 0,
@@ -35,15 +34,14 @@
       "keyword": {},
       "callback": false
     },
-    "refSerialize": "4e8e7c0b34e92cbd078657c3fe1846f7",
-    "from": "5215583049909"
+    "refSerialize": "f403bf6c3058aa3f72f2facd8ac71e64",
+    "from": "5215649648744"
   },
   {
-    "ref": "ans_c0a2eb60-784a-458f-9b6a-e2d820d0d934",
-    "keyword": "ans_539e67e4-c244-402f-af54-f7023c29fbcf",
-    "answer": "__capture_only_intended__",
+    "ref": "ans_eaa3e3f2-a86c-476d-8a2d-270a3dc70e66",
+    "keyword": "ans_c803c1d9-3615-47f1-a643-9cab603915db",
+    "answer": "__call_action__",
     "options": {
-      "media": "/Users/fldsmdfr/Documents/GitHub/talachadigital-bot/assets/dog.png",
       "buttons": [],
       "capture": false,
       "delay": 0,
@@ -51,15 +49,15 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "12b288ccb02409faab68399f58210f89",
-    "from": "5215583049909"
+    "refSerialize": "902e2b83a511bf29cfb173415ab4a8d7",
+    "from": "5215649648744"
   },
   {
-    "ref": "ans_044805ae-ddc0-4cd5-a0af-d7893e69ab0a",
-    "keyword": "ans_c0a2eb60-784a-458f-9b6a-e2d820d0d934",
-    "answer": "Te mando un ejemplo:",
+    "ref": "ans_f0471c98-5958-4e5b-925c-7c9a7a8f645a",
+    "keyword": "ans_eaa3e3f2-a86c-476d-8a2d-270a3dc70e66",
+    "answer": "The Dogfather",
     "options": {
-      "media": "/Users/fldsmdfr/Documents/GitHub/talachadigital-bot/assets/persianas.mp4",
+      "media": "/Users/fldsmdfr/Documents/GitHub/talachadigital-bot/assets/talachadigital-dog.mp4",
       "buttons": [],
       "capture": false,
       "delay": 0,
@@ -67,15 +65,15 @@
       "keyword": {},
       "callback": false
     },
-    "refSerialize": "cba601c26a9e92fea4e13b910b2d031a",
-    "from": "5215583049909"
+    "refSerialize": "f0681472a8e70da1c5742f6471ec15b8",
+    "from": "5215649648744"
   },
   {
-    "ref": "ans_a79d2d8c-9cf9-462e-8c1b-21f655674c08",
-    "keyword": "ans_044805ae-ddc0-4cd5-a0af-d7893e69ab0a",
+    "ref": "ans_a91ef55e-5f77-4245-a76e-5e9c2a1add03",
+    "keyword": "ans_f0471c98-5958-4e5b-925c-7c9a7a8f645a",
     "answer": "__capture_only_intended__",
     "options": {
-      "media": "/Users/fldsmdfr/Documents/GitHub/talachadigital-bot/assets/persianas.mp4",
+      "media": "/Users/fldsmdfr/Documents/GitHub/talachadigital-bot/assets/talachadigital-dog.mp4",
       "buttons": [],
       "capture": false,
       "delay": 0,
@@ -83,7 +81,69 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "69e41fcc673736c0a8b3ea8a27138efa",
-    "from": "5215583049909"
+    "refSerialize": "12939039cfdb97f0b7f9996475ae390f",
+    "from": "5215649648744"
+  },
+  {
+    "ref": "ans_00e48b5f-2eb3-4852-8a74-5e06ff98227a",
+    "keyword": "ans_a91ef55e-5f77-4245-a76e-5e9c2a1add03",
+    "answer": "Ineuro Educación",
+    "options": {
+      "media": "/Users/fldsmdfr/Documents/GitHub/talachadigital-bot/assets/talachadigital-neuro.mp4",
+      "buttons": [],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "3ff7f88603b194d2a28b936cf789b52a",
+    "from": "5215649648744"
+  },
+  {
+    "ref": "ans_559c0e49-f872-4194-a2c3-44b347c685ac",
+    "keyword": "ans_00e48b5f-2eb3-4852-8a74-5e06ff98227a",
+    "answer": "__capture_only_intended__",
+    "options": {
+      "media": "/Users/fldsmdfr/Documents/GitHub/talachadigital-bot/assets/talachadigital-neuro.mp4",
+      "buttons": [],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "6c21d728c482a5bbd2a63d4c212594fd",
+    "from": "5215649648744"
+  },
+  {
+    "ref": "ans_6d319643-c672-4030-93dd-c4e92386d92c",
+    "keyword": "ans_559c0e49-f872-4194-a2c3-44b347c685ac",
+    "answer": "+Información y +ejemplos : https://talachadigital.com/jingle",
+    "options": {
+      "buttons": [],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "7b884680802c4df953316bdfc0f0212b",
+    "from": "5215649648744"
+  },
+  {
+    "ref": "ans_9b9cce8f-bc10-49b3-a482-5594e0eca64f",
+    "keyword": "ans_6d319643-c672-4030-93dd-c4e92386d92c",
+    "answer": "__call_action__",
+    "options": {
+      "buttons": [],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "e78ab2f49314322c098834e6c501d315",
+    "from": "5215649648744"
   }
 ]
